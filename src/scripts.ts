@@ -198,10 +198,8 @@ type AccountWithOrWithoutCurrency = {
     currency: 'USD' | 'EUR' | null
 }
 const removeCurrency = (account: AccountWithOrWithoutCurrency): AccountWithOrWithoutCurrency => {
-    if (account.currency !== null) {
-        return {
-            ...account,
-            currency: null
-        }
+    return {
+        ...account,
+        currency: null
     }
 }
