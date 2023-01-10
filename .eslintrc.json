@@ -16,6 +16,6 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "no-restricted-syntax": "on"
+        "no-restricted-syntax": "off"
     }
 }
